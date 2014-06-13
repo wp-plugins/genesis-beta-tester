@@ -6,7 +6,7 @@
 	Author: Nathan Rice
 	Author URI: http://www.nathanrice.net/
 
-	Version: 0.9.0
+	Version: 0.9.1
 
 	License: GNU General Public License v2.0 (or later)
 	License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -18,7 +18,7 @@ register_activation_hook( __FILE__, 'genesis_beta_tester_activation_hook' );
  */
 function genesis_beta_tester_activation_hook() {
 	
-	$latest = '1.8.0-beta1';
+	$latest = '1.9.2';
 
 	$theme_info = get_theme_data( TEMPLATEPATH . '/style.css' );
 
